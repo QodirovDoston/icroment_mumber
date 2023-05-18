@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  button {
+    border: none;
+  }
+  
+  body {
+        height: 100vh;
+        background-image: linear-gradient(#0093e9, #80d0c7);
+  }
+  
+  .content {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 10rem;
+  }
+  
+  .counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:200px;
+  }
+  
+  .counter-box {
+    width: 100%;
+    height: 160px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 100px;
+    font-weight: 600;
+    background-image: linear-gradient(#0878b9, #1d9ce6);
+    border-radius: 8px;
+  }
+  
+  .button {
+    width: 80%;
+    max-width: 350px;
+    height: 60px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+     border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .increment-btn {
+    background-image: linear-gradient(#61b5e6, #0e9cef);
+    font-weight: bold;
+
+  }
+  
+  .save-btn {
+    background-image: linear-gradient(#61b5e6, #0e9cef);
+    font-weight: bold;
+
+  }
+  .restat-btn{
+    background-image: linear-gradient(#61b5e6, #0e9cef);
+    font-weight: bold;
+
+  }
+  .entries p {
+    margin: 2.5rem 0 1em 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+  }
+  
+  .entries-field {
+    font-size: 20px;
+    color: #000000;
+  }
+  
